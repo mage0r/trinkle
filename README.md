@@ -17,7 +17,10 @@ There are three sections, the circuit design for kicad, a few photos of the fini
 
 CREDITS
 ------------
+
 This project was designed by John Spencer - john.spencer.9000@gmail.com - https://github.com/mage0r
+
+Made at hackmelbourne.org!
 
 SPECIAL THANKS
 ------------
