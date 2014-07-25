@@ -9,10 +9,12 @@ This board has such features as: A Power LED, a blink LED attached to D8 and pin
 
 There are three sections, the circuit design for kicad, a few photos of the finished product and some working examples..
 
+To use this board with the arduino IDE, you're going to need an appropriate boards.txt.  I've been using one from https://github.com/damellis/attiny/
+
 
 ![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/trinkle.v.1.0.png)
 
-![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/2014-07-13%2020.06.30.jpg)
+![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/2014-07-14%2023.37.47.jpg)
 
 
 CREDITS
