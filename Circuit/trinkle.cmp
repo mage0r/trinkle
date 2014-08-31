@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 18/07/2014 7:47:20 PM
+Cmp-Mod V01 Created by PcbNew date = 1/09/2014 12:04:53 AM
 
 BeginCmp
 TimeStamp = /53B3E7E8;
@@ -15,17 +15,38 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53F1DD1C;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = MINI_USB;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B3E855;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = PWR_LED;
 IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B3EDDD;
 Reference = D2;
-ValeurCmp = LED;
+ValeurCmp = D8_LED;
 IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /540324BD;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /540324EE;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -46,14 +67,21 @@ BeginCmp
 TimeStamp = /53B3E913;
 Reference = P2;
 ValeurCmp = CONN_7;
-IdModule  = PIN_ARRAY-7X1;
+IdModule  = PIN_ARRAY-7X1_naked;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B3E922;
 Reference = P3;
 ValeurCmp = CONN_7;
-IdModule  = PIN_ARRAY-7X1;
+IdModule  = PIN_ARRAY-7X1_naked;
+EndCmp
+
+BeginCmp
+TimeStamp = /5403274C;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = breakaway;
 EndCmp
 
 BeginCmp
@@ -74,6 +102,27 @@ BeginCmp
 TimeStamp = /53B3EF88;
 Reference = R3;
 ValeurCmp = 10k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54032140;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54032305;
+Reference = R5;
+ValeurCmp = 68;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /540322DD;
+Reference = R6;
+ValeurCmp = 68;
 IdModule  = SM0603;
 EndCmp
 

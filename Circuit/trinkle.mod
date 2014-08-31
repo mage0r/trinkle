@@ -1,10 +1,12 @@
-PCBNEW-LibModule-V1  2/07/2014 10:44:37 PM
+PCBNEW-LibModule-V1  1/09/2014 12:04:07 AM
 # encoding utf-8
 Units mm
 $INDEX
 1107G
 PIN_ARRAY-6X1
 PIN_ARRAY-7X1
+PIN_ARRAY-7X1_naked
+breakaway
 $EndINDEX
 $MODULE 1107G
 Po 0 0 0 15 53B3FE7F 00000000 ~~
@@ -165,4 +167,141 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE PIN_ARRAY-7X1
+$MODULE PIN_ARRAY-7X1_naked
+Po 0 0 0 15 54032358 00000000 ~~
+Li PIN_ARRAY-7X1_naked
+Sc 0
+AR /53B3E913
+Op 0 0 0
+T0 0 -2.159 1.016 1.016 0 0.2032 N I 21 N "P2"
+T1 0 2.159 1.016 0.889 0 0.2032 N I 21 N "CONN_7"
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "N-0000022"
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "N-0000018"
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 7 "N-0000023"
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "N-0000021"
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "N-0000020"
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000019"
+Po 7.62 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_6x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE PIN_ARRAY-7X1_naked
+$MODULE breakaway
+Po 0 0 0 15 54032B4D 00000000 ~~
+Li breakaway
+Cd breakaway
+Kw breakaway
+Sc 0
+AR /5403274C
+Op 0 0 0
+T0 0 -2.54 1.016 1.016 0 0.2032 N V 21 N "P4"
+T1 0 2.54 1.016 1.016 0 0.2032 N I 21 N "CONN_4"
+$PAD
+Sh "1" R 1 1 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po -2.27 0
+$EndPAD
+$PAD
+Sh "2" C 1 1 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 4 "N-0000014"
+Po -0.76 0
+$EndPAD
+$PAD
+Sh "3" C 1 1 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 3 "N-0000013"
+Po 0.76 0
+$EndPAD
+$PAD
+Sh "4" C 1 1 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 1 "+5V"
+Po 2.27 0
+$EndPAD
+$PAD
+Sh "" C 1 1 0 0 0
+Dr 0.8 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -3.78 0
+$EndPAD
+$PAD
+Sh "" C 1 1 0 0 0
+Dr 0.8 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -5.29 0
+$EndPAD
+$PAD
+Sh "" C 1 1 0 0 0
+Dr 0.8 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 3.78 0
+$EndPAD
+$PAD
+Sh "" C 1 1 0 0 0
+Dr 0.8 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.29 0
+$EndPAD
+$SHAPE3D
+Na "pin_array\\pins_array_4x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE breakaway
 $EndLIBRARY
