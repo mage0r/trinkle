@@ -14,7 +14,7 @@ There are three sections, the circuit design for kicad, a few photos of the fini
 
 ![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/trinkle.v.1.0.png)
 
-![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/2014-07-14 23.37.47.jpg)
+![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/2014-09-22 22.40.29.jpg)
 
 
 CREDITS
