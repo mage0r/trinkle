@@ -7,12 +7,14 @@ So, having bulk ordered to save a bit of cash, I have a lot of these attiny 84's
 
 This board has such features as: A Power LED, a blink LED attached to D8 and pin spacing to suit a protoboard.  It lacks features like anything else.
 
+Version 2.0 now includes a USB port to upload sketches.  Software coming soon.
+
 There are three sections, the circuit design for kicad, a few photos of the finished product and some working examples..
 
 
 ![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/trinkle.v.1.0.png)
 
-![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/2014-07-13%2020.06.30.jpg)
+![trinkle](https://raw2.github.com/mage0r/trinkle/master/Photos/2014-07-14 23.37.47.jpg)
 
 
 CREDITS
